@@ -1,0 +1,46 @@
+# Virtual environment
+venv/
+.vscode/
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# SQLite database file
+db.sqlite3
+
+# Environment variables
+.env
+
+# Editor-specific files
+.idea/
+*.swp
+
+# Compiled assets
+staticfiles/
+
+# Local development settings
+local_settings.py
+
+# Dependency directories
+node_modules/
+yarn-error.log
+
+# Mac and Windows system files
+.DS_Store
+Thumbs.db
+
+# Secret key (if you're not using environment variables)
+secret_key.txt
+
+# Compiled translation files
+locale/
+
+# Generated coverage reports
+htmlcov/
+
+# Ignore migrations for third-party apps
+**/migrations/

@@ -1,0 +1,101 @@
+/* OrdersPage.css */
+
+.orders-container {
+    padding: 20px;
+  }
+  
+  .orders-heading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .orders-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .order-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .order-details {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .customer-name {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .dish-name {
+    font-size: 1.4rem;
+    color: #777;
+  }
+  
+  .order-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .order-status {
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+  }
+  
+  .status-select {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .received {
+    background-color: #3498db;
+  }
+  
+  .preparing {
+    background-color: #f39c12;
+  }
+  
+  .delivered {
+    background-color: #27ae60;
+  }
+  
+  /* Add more styling as needed */
+  

@@ -1,0 +1,62 @@
+/* PlaceOrderPage.css */
+
+.place-order-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .place-order-heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .order-form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  .place-order-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .place-order-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .order-success {
+    color: #27ae60;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .order-error {
+    color: #e74c3c;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
